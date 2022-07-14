@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <section class="customers container">
+        <h2 style="display: none;">Customer Reviews</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="customers-clients-1"></div>
+                    <div class="customers-text-container">
+                        <p class="customers-text"> <svg class="customers-text-svg" width="60" height="40">
+                                <use href="./image/symbol-defs.svg#icon-lapki"></use>
+                            </svg>Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
+                            nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="customers-clients-2"></div>
+                    <div class="customers-text-container">
+                        <p class="customers-text"> <svg class="customers-text-svg" width="60" height="40">
+                                <use href="./image/symbol-defs.svg#icon-lapki"></use>
+                            </svg>Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
+                            nulla quam nunc, accumsan
+                            congue. Lorem ipsum primis in nibh vel risus.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="customers-clients-3"></div>
+                    <div class="customers-text-container">
+                        <p class="customers-text"> <svg class="customers-text-svg" width="60" height="40">
+                                <use href="./image/symbol-defs.svg#icon-lapki"></use>
+                            </svg>Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
+                            nulla quam nunc, accumsan
+                            congue. Lorem ipsum primis in nibh vel risus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <p class="customers-place">Emily, Los Angeles</p>
+        
+        <div class="customers-place-svg">
+            <ul class="customers-item">
+                <li class="customers-items"><svg class="customers-svg-home" width="12px" height="12px">
+                    <use href="/image/symbol-defs.svg#icon-frame"></use>
+                </svg></li>
+                <li class="customers-items"></svg>
+                <svg class="customers-svg-frame" width="12px" height="12px">
+                    <use href="/image/symbol-defs.svg#icon-home"></use>
+                </svg></li>
+                <li class="customers-items"><svg class="customers-svg-frame" width="12px" height="12px">
+                    <use href="/image/symbol-defs.svg#icon-home"></use>
+                </svg></li>
+            </ul>
+            
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>
