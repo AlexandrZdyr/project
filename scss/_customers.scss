@@ -105,8 +105,11 @@
     padding-top: 32px;
     margin-left: 72px;
     margin-right: 74px;
-    border-bottom: 1px solid #E1E1E1;
-    text-decoration: underline;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center bottom 1px;
+    background-size: 100% 1px;
+    background-image: linear-gradient(to right, #E1E1E1, #E1E1E1);
 }
 
 
@@ -144,15 +147,27 @@
 }
 
 .customers-svg-home {
-    fill: #D31342;
+    fill: #D9D9D9;
 }
 
 .customers-svg-frame {
     fill: #D9D9D9;
 }
 
+.svg-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.svg {
+    fill: #C7133E;
+    margin-right: 18px;
+}
+
+
 .swiper-pagination-bullet-active {
-    --swiper-theme-color: #D31342;
+    background-image: url(../image/Frame.jpg);
 }
 
 .swiper-pagination {
@@ -164,6 +179,11 @@
 }
 
 .swiper-pagination-bullet {
-    width: 4px;
-    height: 4px;
+    width: 12px;
+    height: 12px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin-right: 18px;
 }
